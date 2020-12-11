@@ -5,10 +5,9 @@
 /* 1.1 Geef de 'img' tag in the header een ID en zet zijn breedte op 100% */
 
 img.header #tutti {
-    width: 100
+    max-width: 100%;
 }
 
-/* 1.2 Verander de kleur van alle list items in de unordered list naar hsl(110, 29%, 52%) */
 
 ul {
     color: #6DA861;
@@ -30,7 +29,7 @@ main.# {
 
 }
 
-git config --global user.name "Kpieper552"
+
 
 /* Verander de achtergrond van de SignUp button. Tip: https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors  */
 
