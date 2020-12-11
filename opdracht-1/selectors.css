@@ -4,15 +4,21 @@
 
 /* 1.1 Geef de 'img' tag in the header een ID en zet zijn breedte op 100% */
 
-
+img.header #tutti {
+    width: 100
+}
 
 /* 1.2 Verander de kleur van alle list items in de unordered list naar hsl(110, 29%, 52%) */
 
-
+ul {
+    color: #6DA861;
+}
 
 /* 1.3 Geef de 'span' tag in de footer een beschrijvende class name en maak de lettergrootte kleiner  */
 
-
+span {
+    font-size: smaller ;
+}
 
 /* 1.4 Haal de text-decoration van navigatie-links weg, geef onbezochte links de kleur hsl(359, 79%, 56%) en verander de kleur wanneer de gebruiker er overheen hovert. */
 
@@ -20,7 +26,11 @@
 
 /* 1.5 Maak een hover- en visited stijl voor alle links in 'main'. */
 
+main.# {
 
+}
+
+git config --global user.name "Kpieper552"
 
 /* Verander de achtergrond van de SignUp button. Tip: https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors  */
 
@@ -28,8 +38,11 @@
 
 /* Geef het tekst-veld een blauwe rand wanneer hij in focus is */
 
-
-
+article {
+    border: blue; action
+}
 /* Target alle heading tags op de pagina en zet hun font-family op 'Bree Serif', serif */
 
-
+.header {
+    font-family: bree, serif ;
+}
