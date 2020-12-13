@@ -8,6 +8,7 @@ img.header #tutti {
     max-width: 100%;
 }
 
+/* 1.2 */
 
 ul {
     color: #6DA861;
@@ -21,19 +22,26 @@ span {
 
 /* 1.4 Haal de text-decoration van navigatie-links weg, geef onbezochte links de kleur hsl(359, 79%, 56%) en verander de kleur wanneer de gebruiker er overheen hovert. */
 
-
-
-/* 1.5 Maak een hover- en visited stijl voor alle links in 'main'. */
-
-main.# {
+nav a:link{
+  color:#E73639; text-decoration: none;
 
 }
 
+/* 1.5 Maak een hover- en visited stijl voor alle links in 'main'. */
 
+main a:visited {
+
+color: #00ffff;
+}
+main a:hover {
+color: #6DA861;
+}
 
 /* Verander de achtergrond van de SignUp button. Tip: https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors  */
 
-
+input [attr=value= "signup"] {
+    background-color: #E73639;
+}
 
 /* Geef het tekst-veld een blauwe rand wanneer hij in focus is */
 
