@@ -1,8 +1,44 @@
 /* ======================================================
    OEFENEN MET FLEXBOX
 ========================================================= */
-.div one {
+
+.one {
     display: flex;
-    align-content: flex-end;
- 
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* lijst verwijderen via css en list items op een rij zetten met ruimte ertussen lukt niet!  */
+
+.three {
+    display: flex; flex-direction: row; justify-content: space-between;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 33.3%
+
+
+}
+
+.five {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+article {
+    flex-basis: 365px;
+    flex-grow: 1;
+    flex-shrink: 0;
 }

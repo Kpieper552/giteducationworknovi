@@ -17,7 +17,7 @@ Zorg dat het paarse review-blok er zo uit komt te zien door flexbox te gebruiken
 Zorg dat de `<div class="two">` er zo uit komt te zien door flexbox te gebruiken:
 
 ![Opdracht 2.2](./assets/two.png "Eindresultaat")
-
+ 
 ## Opdracht 2.3:
 Zorg dat de `<div class="three">` er zo uit komt te zien door flexbox te gebruiken:
 
